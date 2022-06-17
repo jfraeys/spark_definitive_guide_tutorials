@@ -1,0 +1,7 @@
+name: spark_tutorial_env
+channels:
+  - conda-forge # We added a third party channel
+  - defaults
+dependencies:
+  - python=3.10.5
+  - pyspark=2.4.4
